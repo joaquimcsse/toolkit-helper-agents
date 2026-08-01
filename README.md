@@ -1,6 +1,6 @@
 # Toolkit for Simple Agents
 
-Testing langchain's agents and tools.
+Testing LangChain's tools for a helper agent.
 
 ## Requirements 
 Download the required extensions in "./requirements.txt"
