@@ -47,7 +47,7 @@ class Agent():
             self.tools.extend(tools)
             return
         try:
-            self.llm.bind_tools(tools)
+            self.llm = self.llm.bind_tools(tools)
         except Exception:
             self.tools.extend(tools)
 
