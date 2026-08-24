@@ -1,0 +1,17 @@
+[project]
+name = "project"
+version = "1.2"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain",
+    "langchain-classic",
+    "langchain-openai",
+    "langchain-core",
+    "langchain-experimental",
+    "langchain-ibm",
+    "ibm-watsonx-ai",
+    "openai",
+    "pandas",
+    "numpy",
+    "scikit-learn"
+]
