@@ -3,7 +3,7 @@
 Testing LangChain's wrappers and tools for building agents.
 
 ## Requirements 
-Download the required extensions in uv.lock with uv package manager
+Download the required extensions
 ```bash
     uv sync
 ```
