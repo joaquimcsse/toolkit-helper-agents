@@ -7,7 +7,7 @@ import re
 import sys
 import pandas as pd
 
-from project.base_agent import Agent
+from toolkit_helper_agents.base_agent import Agent
 
 class DataAnalyst(Agent):
 

@@ -1,9 +1,9 @@
-# Toolkit for Simple Agents
+# LLM Based Autonomous Agents With LangChain
 
-Testing LangChain's wrappers and tools for building agents.
+Setting up LLM based autonomous agents with LangChain's wrappers and tools.
 
 ## Requirements 
-Download the required extensions
+Download the required extensions (using uv or your preferred package manager)
 ```bash
     uv sync
 ```
@@ -11,8 +11,8 @@ Download the required extensions
 ## Usage 
 ```python
     if __name__ == "__main__":
-        from project.nl_tasks.data_analyst import DataAnalyst
-        from project.df_tasks.data_agent import DataAgent
+        from toolkit_helper_agents.nl_tasks.data_analyst import DataAnalyst
+        from toolkit_helper_agents.df_tasks.data_agent import DataAgent
 
         #agent = DataAgent()
         #agent = DataAnalyst()

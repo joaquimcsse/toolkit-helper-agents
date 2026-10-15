@@ -7,8 +7,8 @@ from typing import List, Any
 
 from .tools import (list_csv_files, preload_datasets, get_dataset_summaries, call_dataframe_method, 
             evaluate_classification_dataset, evaluate_regression_dataset)
-from project.utils import add, subtract, multiply, divide, power
-from project.base_agent import Agent
+from toolkit_helper_agents.utils import add, subtract, multiply, divide, power
+from toolkit_helper_agents.base_agent import Agent
 
 
 class DataAgent(Agent):
